@@ -1,94 +1,100 @@
-# 🚴 Aerofit Case Study Analysis
+# 🚴 Aerofit Case Study Analysis: Descriptive Statistics & Probability
 
 ![image](https://github.com/user-attachments/assets/bb1c9ac7-62ce-4a30-a70b-0b3fb0ab2220)
 
-## About
+## 🎯 Objective
 
-Aerofit is a leading brand specializing in fitness equipment designed to meet the needs of health enthusiasts worldwide. With a commitment to quality and innovation, Aerofit provides a range of products catering to professional athletes and home fitness enthusiasts. This case study explores business performance data to provide actionable insights for enhancing sales and customer engagement.
-
----
-
-## Dataset Features
-
-- **CustomerID**: Unique identifier for each customer
-- **ProductCategory**: Type of fitness equipment purchased
-- **PurchaseAmount**: Total amount spent by the customer
-- **PurchaseDate**: Date of the purchase transaction
-- **Age**: Age of the customer
-- **Gender**: Gender of the customer
-- **Region**: Geographic region of the customer
-- **Feedback**: Customer feedback score (1-10)
-- **RepeatCustomer**: Indicator if the customer has made previous purchases
+The primary goal of this analysis is to create comprehensive customer profiles for each AeroFit treadmill product through descriptive analytics. By developing two-way contingency tables and analyzing conditional and marginal probabilities, we aim to discern customer characteristics, facilitating improved product recommendations and informed business decisions.
 
 ---
 
-## Insights and Analysis
+## 📝 Project Report
 
-### Statistical Summary
-
-- **Dataset Size**: The dataset contains 8,000 entries and 9 features, capturing customer demographics and purchase behavior.
-- **Missing Values**: The columns with missing data are 'Feedback' and 'Age', which have been addressed through appropriate data cleaning techniques.
-- **Data Types**: The data types have been adjusted for accuracy, including converting 'PurchaseDate' to a datetime format and 'Feedback' to numerical for analysis.
+- You can access the complete project Python file here: [Python](https://github.com/ssgalactic/Business_Case_Study_Aerofit/blob/main/Business_Case_Aerofit_Descriptive_Statistics_%26_Probability_Sabyasachi.ipynb).
+- You can access the complete project in PDF format here: [Report](https://github.com/ssgalactic/Business_Case_Study_Aerofit/blob/main/AerofitCaseStudy_Sabyasachi.pdf).
 
 ---
 
-### Data Visualization
+## 📚 About Data
 
-#### 📈 Sales Trends
+The company collected data on individuals who purchased a treadmill from AeroFit stores during three months. The data is available in a single CSV file and includes the following features:
 
-- **Product Popularity**: Treadmills and elliptical machines are the most purchased items.
-- **Sales Peaks**: Significant increase in sales observed during January, coinciding with New Year fitness resolutions.
+### Product Portfolio
 
----
+1. **KP281**: Entry-level treadmill priced at USD 1,500.
+2. **KP481**: Mid-level treadmill for runners priced at USD 1,750.
+3. **KP781**: Advanced treadmill with additional features priced at USD 2,500.
 
-#### 🎯 Customer Demographics
+### Dataset Features
 
-- **Age Distribution**: Most customers fall within the 25-40 age range.
-- **Gender Insights**: A fairly even distribution between male and female customers.
-- **Regional Sales**: Highest sales recorded in urban regions, particularly in metropolitan areas.
-
----
-
-#### 🕰️ Purchase Patterns Over Time
-
-- **Monthly Trends**: Consistent growth in sales each year, with a notable spike in fitness equipment purchases during the first quarter.
-- **Weekday Preferences**: Customers prefer shopping on weekends, showing a peak in sales from Friday to Sunday.
-
----
-
-### Feedback Analysis
-
-#### 🗣️ Customer Feedback
-
-- **Average Score**: Feedback scores average at 8.2, indicating high satisfaction levels.
-- **Common Complaints**: Some issues with product availability and customer service responsiveness.
+- **Product**: Product Purchased - KP281, KP481, or KP781.
+- **Age**: Age of buyer in years.
+- **Gender**: Gender of buyer (Male/Female).
+- **Education**: Education of buyer in years.
+- **Marital Status**: Marital status of buyer (Single or partnered).
+- **Usage**: The average number of times the buyer plans to use the treadmill each week.
+- **Income**: Annual income of the buyer (in $).
+- **Fitness**: Self-rated fitness on a 1-to-5 scale, where 1 is poor shape and 5 is excellent shape.
+- **Miles**: The average number of miles the buyer expects to walk/run each week.
 
 ---
 
-### Regional Insights
+## 🧩 Business Recommendations
 
-#### 🌍 Sales Distribution by Region
+### Marketing Campaigns for KP781
 
-- **Key Markets**: Urban regions account for 65% of total sales, highlighting the importance of urban centers for Aerofit.
-- **Rural Opportunities**: Potential for growth in rural areas through targeted marketing strategies.
+- The **KP781** model exhibits a significant sales disparity in terms of gender, with only 18% of total sales attributed to female customers.
+- To enhance this metric, it is recommended to implement targeted strategies such as offering special promotions and trials exclusively designed for female customers.
+
+### Affordable Pricing and Payment Plans
+
+- Given the target customer's age, education level, and income, it's important to offer the KP281 and KP481 treadmills at an affordable price point.
+- Consider providing flexible payment plans that allow customers to spread the cost over several months. This can make the treadmill more accessible to customers with varying budgets.
+
+### User-Friendly App Integration
+
+- Create a user-friendly app that syncs with the treadmill. This app could:
+  - Track users' weekly running mileage.
+  - Provide real-time feedback on their progress.
+  - Offer personalized recommendations for workouts based on their fitness scale and goals.
+- This can enhance the overall treadmill experience and keep users engaged.
 
 ---
 
-## Strategic Recommendations
+## 👤 Customer Profiling
 
-- **Expand Product Line**: Introduce more budget-friendly options to attract younger customers and price-sensitive segments.
-- **Enhance Online Presence**: Strengthen e-commerce capabilities to capitalize on increasing online shopping trends.
-- **Focus on Customer Retention**: Implement loyalty programs and personalized marketing to increase repeat purchases.
-- **Improve Customer Service**: Address feedback issues by enhancing customer support training and reducing response times.
+### Customer Profile for KP281 Treadmill:
+
+- **Age**: Mainly between 18 to 35 years, with some between 35 to 50 years.
+- **Education**: 13 years and above.
+- **Annual Income**: Below USD 60,000.
+- **Weekly Usage**: 2 to 4 times.
+- **Fitness Scale**: 2 to 4.
+- **Weekly Running Mileage**: 50 to 100 miles.
+
+### Customer Profile for KP481 Treadmill:
+
+- **Age**: Mainly between 18 to 35 years, with some between 35 to 50 years.
+- **Education**: 13 years and above.
+- **Annual Income**: Between USD 40,000 to USD 80,000.
+- **Weekly Usage**: 2 to 4 times.
+- **Fitness Scale**: 2 to 4.
+- **Weekly Running Mileage**: 50 to 200 miles.
+
+### Customer Profile for KP781 Treadmill:
+
+- **Gender**: Male.
+- **Age**: Between 18 to 35 years.
+- **Education**: 15 years and above.
+- **Annual Income**: USD 80,000 and above.
+- **Weekly Usage**: 4 to 7 times.
+- **Fitness Scale**: 3 to 5.
+- **Weekly Running Mileage**: 100 miles and above.
 
 ---
 
+## 🤝 Contribution
+Contributions are welcome! If you'd like to collaborate or suggest improvements, feel free to fork the repository and create a pull request.
 
-
-## 🌟Acknowledgements
-This project is part of the Aerofit business analysis initiative. Special thanks to the Aerofit team for providing valuable data and insights. If you have any feedback or questions, feel free to reach out! 😊
-
-
-**Author**
-**Sabyasachi Banerjee**
-
+## 🌟 Acknowledgements
+This project is part of the AeroFit business analysis initiative. Special thanks to the AeroFit team and Scaler for providing valuable data and insights. If you have any feedback or questions, feel free to reach out! 😊
