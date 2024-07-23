@@ -51,12 +51,6 @@ The company collected data on individuals who purchased a treadmill from AeroFit
 - Given the target customer's age, education level, and income, it's important to offer the KP281 and KP481 treadmills at an affordable price point.
 - Consider providing flexible payment plans that allow customers to spread the cost over several months. This can make the treadmill more accessible to customers with varying budgets.
 
-### User-Friendly App Integration
-
-- Create a user-friendly app that syncs with the treadmill. This app could:
-  - Track users' weekly running mileage.
-  - Provide real-time feedback on their progress.
-  - Offer personalized recommendations for workouts based on their fitness scale and goals.
 - This can enhance the overall treadmill experience and keep users engaged.
 
 ---
