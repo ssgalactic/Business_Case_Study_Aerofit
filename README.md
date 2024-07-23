@@ -43,7 +43,7 @@ Aerofit is a leading brand specializing in fitness equipment designed to meet th
 
 #### 🎯 Customer Demographics
 
-- **Age Distribution**: Majority of customers fall within the 25-40 age range.
+- **Age Distribution**: Most customers fall within the 25-40 age range.
 - **Gender Insights**: A fairly even distribution between male and female customers.
 - **Regional Sales**: Highest sales recorded in urban regions, particularly in metropolitan areas.
 
@@ -84,9 +84,11 @@ Aerofit is a leading brand specializing in fitness equipment designed to meet th
 ---
 
 
+
+## 🌟Acknowledgements
+This project is part of the Aerofit business analysis initiative. Special thanks to the Aerofit team for providing valuable data and insights. If you have any feedback or questions, feel free to reach out! 😊
+
+
 **Author**
 **Sabyasachi Banerjee**
-
-#🌟 Acknowledgements
-This project is part of the Aerofit business analysis initiative. Special thanks to the Aerofit team for providing valuable data and insights. If you have any feedback or questions, feel free to reach out! 😊
 
